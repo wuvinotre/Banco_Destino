@@ -1,0 +1,64 @@
+-- MySQL dump 10.13  Distrib 8.0.25, for Linux (x86_64)
+--
+-- Host: 192.168.0.254    Database: destino
+-- ------------------------------------------------------
+-- Server version	5.7.28-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+SET @MYSQLDUMP_TEMP_LOG_BIN = @@SESSION.SQL_LOG_BIN;
+SET @@SESSION.SQL_LOG_BIN= 0;
+
+--
+-- GTID state at the beginning of the backup 
+--
+
+SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ '31ac5135-7bff-11ea-97d7-000c298949f6:1-97907';
+
+--
+-- Table structure for table `historico_conta`
+--
+
+DROP TABLE IF EXISTS `historico_conta`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `historico_conta` (
+  `tenant_id` int(11) NOT NULL,
+  `saldo` varchar(45) DEFAULT NULL,
+  `limite_saque` double DEFAULT NULL,
+  `data` datetime DEFAULT CURRENT_TIMESTAMP,
+  `limite_usado` double DEFAULT NULL,
+  `tipo` tinyint(2) DEFAULT '0',
+  `valor` double DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `historico_conta`
+--
+
+LOCK TABLES `historico_conta` WRITE;
+/*!40000 ALTER TABLE `historico_conta` DISABLE KEYS */;
+INSERT INTO `historico_conta` VALUES (4,'1350',1000,'2021-07-05 14:39:36',0,0,0),(7,'2000',1000,'2021-07-05 14:22:55',399,0,0),(4,'1200.0',1000,'2021-07-05 14:48:52',0,0,0),(7,'0.0',250,'2021-07-05 15:49:44',450,2,0),(7,'0.0',250,'2021-07-05 15:56:55',200,2,0),(7,'0.0',250,'2021-07-05 16:01:53',0,2,0),(7,'0.0',250,'2021-07-05 16:02:04',100,2,0),(7,'50.0',250,'2021-07-05 16:13:44',0,2,0),(7,'150.0',250,'2021-07-05 16:16:56',0,2,0),(7,'0.0',250,'2021-07-05 16:18:17',150,1,0),(7,'50.0',250,'2021-07-05 16:23:18',0,2,200),(7,'1050.0',250,'2021-07-05 16:40:35',0,2,1000),(7,'0.0',250,'2021-07-05 16:42:03',0,1,50),(4,'1700.0',1000,'2021-07-05 17:31:40',0,2,500),(4,'1050.0',1000,'2021-07-05 17:31:58',0,1,150);
+/*!40000 ALTER TABLE `historico_conta` ENABLE KEYS */;
+UNLOCK TABLES;
+SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2021-07-05 17:33:00
