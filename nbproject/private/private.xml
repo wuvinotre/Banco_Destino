@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/ConsultaCliente.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/OnlineBank.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/destino/Conta.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/ferramentas/GeraNrConta.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/ferramentas/GerarSenha.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/Inicial.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/dao/ContaDAO.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/destino/Endereco.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/dao/EnderecoDAO.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/destino/Cliente.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/ferramentas/ConvInt.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/ferramentas/GetTenantId.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/ferramentas/ValidaLogin.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/CadastroCliente.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/destino/ProjetoA3.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/Resumo.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/TelaSaque.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/ferramentas/GeraDados.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/gui/Menu.java</file>
+            <file>file:/home/anderson.collin/NetBeansProjects/ProjetoA3/src/dao/ClienteDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
